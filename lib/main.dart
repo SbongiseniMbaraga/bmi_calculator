@@ -17,6 +17,8 @@ class BMICalculator extends StatelessWidget {
         colorScheme: ColorScheme.fromSwatch(),
         appBarTheme: const AppBarTheme(
           backgroundColor: MaterialColor(0xFF0A0E21, kColorSwatch),
+          foregroundColor: Colors.white,
+          centerTitle: true,
         ),
         scaffoldBackgroundColor: const MaterialColor(0xFF0A0E21, kColorSwatch),
       ),
