@@ -259,8 +259,7 @@ class InputPageState extends State<InputPage> {
           ),
           GestureDetector(
             onTap: () {
-              CalculatorBrain calc =
-                  CalculatorBrain(height: height, weight: weight);
+              CalculatorBrain calc = CalculatorBrain(height: height, weight: weight);
 
               Navigator.push(
                 context,
